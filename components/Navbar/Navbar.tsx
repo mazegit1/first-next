@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const Index = () => {
+const Navbar = () => {
   return (
     <>
       <div className="header bg-black flex items-center justify-between py-6 px-20">
@@ -19,4 +19,4 @@ const Index = () => {
   )
 }
 
-export default Index;
+export default Navbar;

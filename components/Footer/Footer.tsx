@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedin, FaTelegramPlane, FaInstagram } from 'react-icons/fa';
 import Link from 'next/link'
 
-const footer = () => {
+const Footer = () => {
   return (
     <>
     <div className="footer border-t-2 border-t-black flex items-center justify-between px-20 py-6">
@@ -20,4 +20,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer;
